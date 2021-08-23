@@ -20,7 +20,7 @@ app.use(cookieParser());
 
 
 // CONNECT TO DATABASE
-let dbURI = 'mongodb+srv://ahmet:2392139ahmet@cluster.unpir.mongodb.net/cs_project?retryWrites=true&w=majority';
+let dbURI = '#';
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true }, () => {
 
     console.log('connected to DB');
